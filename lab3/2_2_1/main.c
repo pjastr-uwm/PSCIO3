@@ -10,6 +10,8 @@ int foo(int n)
 
 int main()
 {
-    printf("Hello world!\n");
+    int n;
+    scanf("%d",&n);
+    printf("%d", foo(n));
     return 0;
 }

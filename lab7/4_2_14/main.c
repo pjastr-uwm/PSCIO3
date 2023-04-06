@@ -10,6 +10,7 @@ int main()
 {
     double * wsk = foo(4);
     printf("%p\n", wsk );
+
     free(wsk);
     return 0;
 }

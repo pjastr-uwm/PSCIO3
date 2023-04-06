@@ -3,14 +3,14 @@
 
 double * foo(int n, double * tab)
 {
-    double * new = (double*)malloc(n*sizeof(double));
-    if (new == NULL)
+    double * new_tab = (double*)malloc(n*sizeof(double));
+    if (new_tab == NULL)
         return NULL;
     for(int i=0;i<n;i++)
     {
-        *(new +i) = *(tab+i);
+        *(new_tab +i) = *(tab+i);
     }
-    return new;
+    return new_tab;
 }
 
 void wyswietl(int n, double * tab)

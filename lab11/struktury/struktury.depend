@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1683197278 source:c:\users\local\documents\github\pscio3\lab11\struktury\main.c
+	<stdio.h>
+	<stdlib.h>
+

@@ -35,7 +35,7 @@ int main()
     };
     wyswielt(tab1, 4);
     wyswielt(tab2, 4);
-    przepisz(tab1,tab2, 3);
+    przepisz(tab1,tab2, 4);
     wyswielt(tab1, 4);
     wyswielt(tab2, 4);
     return 0;

@@ -11,7 +11,12 @@ void przepisz(struct punktn tab1[], struct punktn tab2[], int n)
 {
     for(int i=0;i<n;i++)
     {
-        tab2[i] =  tab1[i];
+        tab2[i].n = tab1[i].n;
+        tab2[i].wspolrzedne = malloc(tab2[i].n *sizeof(float));
+        for(int j=0;j<tab1[i].n;j++)
+        {
+            tab2[i].wspolrzedne[j] = tab1[i].wspolrzedne[j];
+        }
     }
 }
 

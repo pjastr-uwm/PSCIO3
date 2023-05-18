@@ -1,0 +1,5 @@
+# depslib dependency file v1.0
+1684403754 source:c:\users\local\documents\github\pscio3\lab13\listabezglowy\main.c
+	<stdio.h>
+	<stdlib.h>
+
